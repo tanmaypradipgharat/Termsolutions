@@ -10,20 +10,34 @@
       /* Content section styling */
       #content-section {
         text-align: center;
-        padding: 40px 20px;
+        padding: 60px 20px;
         max-width: 800px;
         margin: 0 auto;
+        background: #fff;
+        position: relative;
+        z-index: 1;
+        min-height: 300px;
       }
       
       #content-section h2 {
-        margin-bottom: 15px;
-        font-size: 2em;
+        margin-bottom: 20px;
+        font-size: 2.5em;
+        color: #333;
+        font-weight: 300;
       }
       
       #content-section p {
-        font-size: 1.2em;
-        line-height: 1.6;
+        font-size: 1.3em;
+        line-height: 1.8;
         color: #666;
+        margin-bottom: 0;
+      }
+      
+      /* Ensure main content area is visible */
+      #main {
+        position: relative;
+        z-index: 1;
+        background: #fff;
       }
     </style>
   </head>
